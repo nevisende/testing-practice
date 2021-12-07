@@ -1,0 +1,26 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.4.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nevisende/testing-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nevisende/testing-practice/issues"
+  },
+  "homepage": "https://github.com/nevisende/testing-practice#readme"
+}
