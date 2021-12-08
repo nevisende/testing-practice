@@ -1,22 +1,4 @@
-const { describe, expect } = require("@jest/globals");
-
-class calculator {
-  static add(first, second) {
-    return first + second;
-  }
-
-  static subtract(first, second) {
-    return first - second;
-  }
-
-  static divide(first, second) {
-    return first / second;
-  }
-
-  static multiply(first, second) {
-    return first * second;
-  }
-}
+import calculator from './calculator';
 
 describe("Calculator Test", () => {
   test("2 and 5 given to add method should return 7", () => {

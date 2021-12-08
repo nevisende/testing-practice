@@ -5,13 +5,14 @@
   "main": "main.js",
   "dependencies": {},
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.0",
     "jest": "^27.4.3"
   },
   "scripts": {
     "test": "jest",
     "watch": "jest --watch"
   },
-  "type": "module",
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nevisende/testing-practice.git"

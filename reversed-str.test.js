@@ -1,6 +1,4 @@
-function reverseString(str) {
-  return str.split('').reverse().join('')
-}
+import reverseString from './reversed-str';
 
 describe("Reverse Function test", () => {
   test('Should return reversed string', () => {
